@@ -8,7 +8,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "~/Applications/scripts/notify-claude-code-notification.sh kjh"
+            "command": "~/Applications/scripts/notify-claude-code-notification.sh local_user"
           }
         ]
       }
@@ -18,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "~/Applications/scripts/notify-claude-code-notification.sh kjh"
+            "command": "~/Applications/scripts/notify-claude-code-notification.sh local_user"
           }
         ]
       }
@@ -28,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "~/Applications/scripts/notify-claude-code-stop.sh kjh"
+            "command": "~/Applications/scripts/notify-claude-code-stop.sh local_user"
           }
         ]
       }
