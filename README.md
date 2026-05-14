@@ -3,13 +3,22 @@
 - Setup hooks in `~/.claude/settings.json`.
 ```json
   "hooks": {
-    "Notification": [
+    "PermissionRequest": [
       {
-        "matcher": "permission_prompt|elicitation_dialog",
         "hooks": [
           {
             "type": "command",
-            "command": "~/Applications/scripts/notify-claude-code-notification.sh local_user"
+            "command": "~/Applications/scripts/notify-claude-code-notification.sh kjh"
+          }
+        ]
+      }
+    ],
+    "Elicitation": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/Applications/scripts/notify-claude-code-notification.sh kjh"
           }
         ]
       }
@@ -19,12 +28,12 @@
         "hooks": [
           {
             "type": "command",
-            "command": "~/Applications/scripts/notify-claude-code-stop.sh local_user"
+            "command": "~/Applications/scripts/notify-claude-code-stop.sh kjh"
           }
         ]
       }
     ]
-  },
+  }
 ```
 
 - If Claude Code is running on remote, setup remote to connect to local without passwords:
