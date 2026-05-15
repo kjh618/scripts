@@ -40,4 +40,5 @@
   1. Local: `ssh -R 2222:localhost:22 remote_user@remote_server`
   2. Remote: `ssh-keygen -t ed25519`
   3. Remote: `ssh-copy-id -p 2222 local_user@localhost`
-  4. Remote: `ssh -p 2222 local_user@localhost ls`
+  4. Remote: Test by running `ssh -p 2222 local_user@localhost ls`.
+  5. Local: Add `RemoteForward 2222 localhost:22` to host `remote_server` in `~/.ssh/config`.
