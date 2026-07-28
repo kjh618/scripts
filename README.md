@@ -1,3 +1,3 @@
 # Scripts
-## Claude Code notification
+## (Old) Claude Code notification
 TODO: Try https://code.claude.com/docs/en/hooks#emit-terminal-notifications.
